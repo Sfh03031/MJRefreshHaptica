@@ -22,6 +22,11 @@ public class MJRefreshHaptica: NSObject {
     private var hapticStyle: HapticFeedbackStyle = .light
     private var exchanged: Bool = false
     
+    
+    /// whether open haptica feed back or not
+    /// - Parameters:
+    ///   - enable: default = `false`
+    ///   - style: HapticFeedbackStyle, default = `light`
     public func open(_ enable: Bool = false, style: HapticFeedbackStyle = .light) {
         self.hapticStyle = style
         if enable {

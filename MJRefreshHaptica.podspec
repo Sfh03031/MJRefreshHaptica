@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MJRefreshHaptica'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MJRefreshHaptica.'
+  s.summary          = 'Add haptica feed back during pulling to refresh for MJRefresh by runtime.(利用runtime为MJRefresh添加下拉刷新过程中的触觉反馈效果。)'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add haptica feed back during pulling to refresh for MJRefresh by runtime.(利用runtime为MJRefresh添加下拉刷新过程中的触觉反馈效果。)
                        DESC
 
   s.homepage         = 'https://github.com/Sfh03031/MJRefreshHaptica'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sfh03031' => 'sfhery@foxmail.com' }
+  s.author           = { 'Sfh03031' => 'sfh894645252@163.com' }
   s.source           = { :git => 'https://github.com/Sfh03031/MJRefreshHaptica.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_versions   = '5.0'
