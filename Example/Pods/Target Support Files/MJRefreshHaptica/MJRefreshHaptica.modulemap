@@ -1,0 +1,6 @@
+framework module MJRefreshHaptica {
+  umbrella header "MJRefreshHaptica-umbrella.h"
+
+  export *
+  module * { export * }
+}

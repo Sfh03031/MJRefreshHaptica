@@ -1,0 +1,1685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0104977F50A324681C504F3CA7B2BE17 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8ABF27755574553D5FB15D9676E486 /* MJRefreshGifHeader.m */; };
+		0114B8F5F20574BB892ACFE2B202D95C /* MJRefreshTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 932E20E87C8F18B65E806F17037C236D /* MJRefreshTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028436A7CF8242E973EDF9B6F794AD52 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2745BFDC03A08B9ABE621C1C8A88C54 /* Extensions.swift */; };
+		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
+		0C91F1C99A35729020707737A2FEDD00 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BCEB245A4BEE4F9166E1D9A7329BB8 /* UIView+MJExtension.m */; };
+		0FB199C06866EC3D430A3E21C4850C87 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F587598813C90984DD234C541F757F /* MJRefreshConst.m */; };
+		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FE89B80B314D709AE2DBAB897FA2B577 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1763BF1A73363FCCDD9C9BE2F3C9ECC5 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B6431386FB46C1AAB0DBF7C2C6C1BC /* MJRefreshAutoStateFooter.m */; };
+		181E5F4343C6D3625AE04C1B0D70F0C7 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70148A4B7F3C3D39FF2B9C97D594CA15 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA7ADC37A1FB17AA6DDF31CFABF90B2 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C09F0EF994CFC1D33E1CA57D0D4F3 /* MJRefreshAutoFooter.m */; };
+		1CDB03419D31CB46D2DDA3BDBFE54FA0 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = EB970C854B1C52219DDC74A5E12B8BC1 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF528609A363F6F5E34B63F1680FF /* FBSnapshotTestController.m */; };
+		26A3DE3437CC7F7DD97F8225B1609A3E /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F37A94B162EAF1E8F1316248F48396 /* UIScrollView+MJRefresh.m */; };
+		2A9D5705BAF7401932B6DF298D2B00FE /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15897515CE92D68EFD2614128D2B7092 /* MJRefreshBackNormalFooter.m */; };
+		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
+		35F80F25F553648A4833A9B2A96F281D /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF898B1341FD80F614ECB19FB358CD /* Pattern.swift */; };
+		3769DDC469C4CECA0F9883481E631CC2 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A242AD17BF0415E99D4CA5E38664AE /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
+		38B3358330769E0529CEFD1D3BFB1E48 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CBF59F3E758B465F2C23BDBA721DE /* MJRefreshBackFooter.m */; };
+		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF05A589C512B5733F8891C2592C266B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4A12CB055C805955E4FF61F90E2868 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FFBD349CF5E9BD67E12A7EE5409EE /* MJRefreshStateHeader.m */; };
+		3EEBA74A9D3A19D1182B1EA522DA9362 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6384F1C0405D70957C6A43DFAB7BC /* MJRefreshConfig.m */; };
+		420062A06901010A1EA585481E3747FF /* Haptica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756404EAC9D5899A25228098F86D468D /* Haptica-dummy.m */; };
+		44336F28E926C7A73340E9DA76142801 /* Pods-MJRefreshHaptica_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40CBF34B38329615AFBB33F5D8E42B7 /* Pods-MJRefreshHaptica_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4467676F0FE19FAC276C293C627F7BB0 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4C6FEE84BB52E3A279259EB9F1DCE /* MJRefreshBackGifFooter.m */; };
+		44E7AEC31AB0BB8F362C01938B1E9444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		4B611DDF30DBEAF7EF202508B70C40C1 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B9043A6DD02B544C94B4BD1DB9C5E816 /* MJRefreshNormalHeader.m */; };
+		4D036C31811DDAFE9DDD5E095894F368 /* MJRefreshHaptica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2A1D09129523D5E4C7C5E218769A48 /* MJRefreshHaptica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC2B9705E0C9E006F9FFA427B1B05F /* FBSnapshotTestCase.m */; };
+		58468E17F31D90388F73D03FA03D9896 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F1BE15B4B04DAD81A5CBB300A047F /* NSBundle+MJRefresh.m */; };
+		58B1051758A1FA76C2B9F8C07AC1E55C /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F4142C4F6EEEBDE110E92355E2DECED7 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5901084F0039F17126684A022E5F84B5 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 281457F6692E580B5B01D72D3F955839 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E431C317BAFA5B86A556AFD3A1E0078 /* UIImage+Compare.m */; };
+		5C50F36F9CB20A20396364C601DB40B0 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2F2FED021C7EE8490BAA67323C08CF /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2622E174BFC945E9C40B8BFFC9BC82 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34EF28880C4137D2534EF03F216E33D9 /* MJRefresh.bundle */; };
+		5FF1C3AF7672F55437688FC35E2E6A71 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8F29E65494BF8A222CEC4D3150D0BA /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607D8E0A869C605A8D2A6DE38C836641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		61F706F2C53FEB0851B318203876B9CE /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = C226C78BF53511D1AC3FB619D6986611 /* MJRefreshNormalTrailer.m */; };
+		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CDFC7C117AACF517B1C8C990F3C905 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		673F3289BD02C39B6886B916436FDB06 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E667A91624297FEB309FD46C84EA6E /* MJRefreshFooter.m */; };
+		6E2F3922AEF4EFA5B8013B25ED7F6F19 /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9C290FE8D692FFCD7B9F935AB45B4 /* MJRefreshStateTrailer.m */; };
+		6F5475F142A1E83603DB1B357605096D /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F95A2F333A2ACA752E33B77D7EFB857 /* MJRefreshComponent.m */; };
+		705227AC0D2868E0C0452B6B2F13E7AA /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = E396B615B15786F49E6E0B57E890EA47 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755BFE7DC01110A9D219FD90568771D0 /* Haptica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7C454651F93E50372A9AB387FB5643 /* Haptica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D3953F1AB3D5C8167EB266A58E797F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBC1087A453CD384A2449A0D7D3D9C /* UIImage+Diff.m */; };
+		7979AA0F93C47F3FB78AA5785CDCEA64 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FE6C8D786AD1EC8BDF9D53D6FE5331 /* MJRefreshHeader.m */; };
+		7BC8361E2EEB708B5544E60DCB0A2939 /* Pods-MJRefreshHaptica_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CD964539D60DBA4C75C8DB3C0B752 /* Pods-MJRefreshHaptica_Tests-dummy.m */; };
+		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		8077A41ACD375F4384A97031D20DA8C2 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C064A0422A74852D49D4F2ACD341E3 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B1B8D29C0AF033C9F296B242331D94 /* MJRefreshTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC9D58FC9F556B31C0BDEE4DE765D3 /* MJRefreshTrailer.m */; };
+		837AA8FACF31CBD17473CF3A52B5802E /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3464B8BCFC593705DEE42B46FEED2 /* MJRefresh-dummy.m */; };
+		863265A549BF19D79A4EBB25C183DC7F /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FC7C32F5FBCB291556053B3996B782 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89235D5EC1FA4F0FD6165B17B542D714 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 253D1790127993798DED8719A79D7DC7 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3EC021D41CD1E8581526B472974CD2 /* MJRefreshHaptica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35230AC3748EC23D840BFE5193CB88CE /* MJRefreshHaptica-dummy.m */; };
+		8DE03DFCF2407056C5FCD3CC4BCC4C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172FE08223ED5248CC06AC7D799856EB /* SwiftSupport.swift */; };
+		98F3E3E30CB29B6D33FEC344656DE2B1 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 92628C4B409F779A24B7C7B17D5169D8 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2E34918A66B77BF8E6BFDE8FBCA2A0 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F28B7ECFC7AFC950F5E1F6753466FD78 /* MJRefreshAutoNormalFooter.m */; };
+		A32C79A703440A6FD893D2EC99C8A50B /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF5E519896BA64225FD37F3EAC2123A /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD514E8FC91C40B179A9E8B98AAC0B9 /* FBSnapshotTestCasePlatform.m */; };
+		AFAAE42DF4585633FA1A217A0E811856 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D1424E288D44ABBBF1412E5803BA63AE /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11D964D81D0EF31D61552C5631E7A3F /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 401A52C89EF13EB63CFFF337498BAD4F /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1307BCEFA623FF242109620B14A08BA /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6866D05399B8F723389DB0F3E7ECCB /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B27224392E69E1816A7FF3A1C1103C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		C2667A6393A22577C16D8E3A6FA12B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		C5FFF007F556C304B17BB818399E05A9 /* MJRefreshHaptica.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC6056F28DCA1D1F9AB177BF7584E3 /* MJRefreshHaptica.swift */; };
+		CC4F11DE003A880456411027726DC0F4 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6121E728959AB0D4FADAAC323B5ACEC9 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D45C941DD5A70450B134936B2297DA7 /* UIApplication+StrictKeyWindow.m */; };
+		CE9BCBAD24F7170954A9C7C0B9CB762F /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AF806180F07717DA30F9E0B40186D553 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F3F281EC719D65251D80888F0433B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16DC5108E5030FB976667035824FAF3 /* Hapticable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527C18762067B623814499CFDC857B0 /* Hapticable.swift */; };
+		D18FD294916AB7FCBBCD5F539134B3B4 /* Pods-MJRefreshHaptica_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA388B0B940271348285929C97D1D6AE /* Pods-MJRefreshHaptica_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DD9E1709AB1FAAA11027E9517DD2CF /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF8A015D618EDCE437E6C8F7CE04D0 /* Associated.swift */; };
+		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBCF1DEF194109F5E0191FD6CB22007 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA8E984C1424B98CEF0C26D0986B0695 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F0FA64F822D8CC2B1CEFDFE10D515 /* Haptic.swift */; };
+		E3073CA98E00E91598591BB39A850397 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F063498E0387DBA581FCE6A7CFD801C6 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = BB96B6E481F3BDA86C3E33ACFF167391 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 934F51BCFE0DCEC328A0AEC90C25AF87 /* FBSnapshotTestCase-dummy.m */; };
+		E9FD6A9B97CB0C14864751C243A612E2 /* Pods-MJRefreshHaptica_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 327ADFB760FB9BDE9AA58AADA9AB025D /* Pods-MJRefreshHaptica_Example-dummy.m */; };
+		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 69850C3A070198BC4943CA55EA74FD76 /* UIImage+Snapshot.m */; };
+		ECBC215883D3DF3A4E9971487E4DB260 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AE436BA1DD6E65301547261D3B7DEBC3 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED827C9A4615ECBD8EFFA1E2C2E59B92 /* UICollectionViewLayout+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 57850B4F6A575B34F2635E3D8B531C8B /* UICollectionViewLayout+MJRefresh.m */; };
+		ED9C51A66341A9C0224E9E07AB1F38D7 /* UICollectionViewLayout+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BF7EDFDA54F7B12BF49720EDC2161A /* UICollectionViewLayout+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F514EA78D136755D0BC0C5D2778A4B73 /* MJRefreshStateTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AA71DCF897C2A36454C5D7FBB5B51A /* MJRefreshStateTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52A27FAA0646504F274F1224366E858 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D9D37ECE96C5ED62C4A34CA4184D70 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5499380D2AFD9E13B8264CCD3AB3C9A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 374EDBD936000480C1BDD88C7E3BEA1D /* MJRefreshBackStateFooter.m */; };
+		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = DC135F78D1CB0060BEC161FD65B32480 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FD7662803D266AB3603053D653FA601D /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAADF76AA72C270F37AD066554F67EA /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9E6A83907C18D2D5F5DD9E8E4FAA9D /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D14C50DDFB049EC93BE2B83BA292CDE6 /* UIScrollView+MJExtension.m */; };
+		FE6264E3C4D12DBEE389996AFF918054 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C187A31B29AD2ECE0331997FB3678FF /* MJRefreshAutoGifFooter.m */; };
+		FF5D09270B5A2A00D0E459592002D1F2 /* MJRefreshNormalTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B867BA1FC2795005E827F2ED7F8C0B /* MJRefreshNormalTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079E55F21F30F246318EF1E75CEED405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		0CC8C981A795A429E77FAD96B608A019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB3A3AFE4ABB9CFC3F512497E1D657E;
+			remoteInfo = MJRefreshHaptica;
+		};
+		1E4AEFC3F2B709A41F4834EC966696A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42DC7F21005DF10871F318716326E5E;
+			remoteInfo = Haptica;
+		};
+		1E7BBBB46013848B682A129A00AB7A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42DC7F21005DF10871F318716326E5E;
+			remoteInfo = Haptica;
+		};
+		303FBDFB0D7AFAC15FDAA576091ACB37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B4D41F3E350CA7D524D8340219BF10C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C182E1AD79A078D0642BA102A20F9B7D;
+			remoteInfo = "Pods-MJRefreshHaptica_Example";
+		};
+		B7223678DD3C13099CF71C52020B10AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064F17FD263B1AB48ABAEB45574977C3 /* Haptica-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Haptica-Info.plist"; sourceTree = "<group>"; };
+		0BAADF76AA72C270F37AD066554F67EA /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		0D871DD8FA33CEDAF1647B0106C80BC2 /* Pods-MJRefreshHaptica_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJRefreshHaptica_Tests-Info.plist"; sourceTree = "<group>"; };
+		0E431C317BAFA5B86A556AFD3A1E0078 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		0E7C454651F93E50372A9AB387FB5643 /* Haptica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptica-umbrella.h"; sourceTree = "<group>"; };
+		0EFC717F9388A9821D3549CA0107A4F1 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		0F95A2F333A2ACA752E33B77D7EFB857 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		13B867BA1FC2795005E827F2ED7F8C0B /* MJRefreshNormalTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.h; sourceTree = "<group>"; };
+		13CDFC7C117AACF517B1C8C990F3C905 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		13FE6C8D786AD1EC8BDF9D53D6FE5331 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		13FF8A015D618EDCE437E6C8F7CE04D0 /* Associated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Associated.swift; path = Sources/Associated.swift; sourceTree = "<group>"; };
+		14A242AD17BF0415E99D4CA5E38664AE /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		15897515CE92D68EFD2614128D2B7092 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		172FE08223ED5248CC06AC7D799856EB /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		18C732E6C952DE8B77A9B183212B2E83 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		19BB9328A823662F0EA18E34151C53E7 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		1A0ECC172318EB48E0ABA4DC01AA1FE9 /* Pods-MJRefreshHaptica_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJRefreshHaptica_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C9CBF59F3E758B465F2C23BDBA721DE /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		1CE6384F1C0405D70957C6A43DFAB7BC /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
+		1EA4C6FEE84BB52E3A279259EB9F1DCE /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		1ECBC1087A453CD384A2449A0D7D3D9C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		1FCF898B1341FD80F614ECB19FB358CD /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		2123C5857D1D7D54C4567FB5F957C4BB /* MJRefreshHaptica.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJRefreshHaptica.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22D3953F1AB3D5C8167EB266A58E797F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		253D1790127993798DED8719A79D7DC7 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		281457F6692E580B5B01D72D3F955839 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
+		295F3F281EC719D65251D80888F0433B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		2FD514E8FC91C40B179A9E8B98AAC0B9 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		327ADFB760FB9BDE9AA58AADA9AB025D /* Pods-MJRefreshHaptica_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJRefreshHaptica_Example-dummy.m"; sourceTree = "<group>"; };
+		33AA71DCF897C2A36454C5D7FBB5B51A /* MJRefreshStateTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.h; sourceTree = "<group>"; };
+		34EF28880C4137D2534EF03F216E33D9 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		35230AC3748EC23D840BFE5193CB88CE /* MJRefreshHaptica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshHaptica-dummy.m"; sourceTree = "<group>"; };
+		35722857CB203F06A3B640F120B4BF60 /* Haptica */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haptica; path = Haptica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374EDBD936000480C1BDD88C7E3BEA1D /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		3BA0A75194921611F245E6D1370A86EB /* MJRefreshHaptica-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefreshHaptica-prefix.pch"; sourceTree = "<group>"; };
+		3C2F2FED021C7EE8490BAA67323C08CF /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		3DF5E519896BA64225FD37F3EAC2123A /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		3F2721655957EFF49EA6B93A3F81377A /* Pods-MJRefreshHaptica_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJRefreshHaptica_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F8F29E65494BF8A222CEC4D3150D0BA /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		401A52C89EF13EB63CFFF337498BAD4F /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		41F587598813C90984DD234C541F757F /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		43D9C290FE8D692FFCD7B9F935AB45B4 /* MJRefreshStateTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.m; sourceTree = "<group>"; };
+		46EC2B9705E0C9E006F9FFA427B1B05F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		497DE3EB22991FAC6B738983643E1E1B /* Pods-MJRefreshHaptica_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJRefreshHaptica_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		52385A471E82B434039CB04E449C13BB /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		57850B4F6A575B34F2635E3D8B531C8B /* UICollectionViewLayout+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewLayout+MJRefresh.m"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.m"; sourceTree = "<group>"; };
+		5A8ABF27755574553D5FB15D9676E486 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		5AF713ACA88F431D4381E4551DD393B2 /* Haptica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haptica.release.xcconfig; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D45C941DD5A70450B134936B2297DA7 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		5E608CAD9952CBAB4AAD673387CDC868 /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
+		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6121E728959AB0D4FADAAC323B5ACEC9 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69850C3A070198BC4943CA55EA74FD76 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		6F28F97DE18C9FFC79D9377FEF379330 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		70148A4B7F3C3D39FF2B9C97D594CA15 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		7054DF870646905EF643BB838524A880 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		747F0FA64F822D8CC2B1CEFDFE10D515 /* Haptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haptic.swift; path = Sources/Haptic.swift; sourceTree = "<group>"; };
+		756404EAC9D5899A25228098F86D468D /* Haptica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haptica-dummy.m"; sourceTree = "<group>"; };
+		75B6431386FB46C1AAB0DBF7C2C6C1BC /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		7834928907F95C7B2F30686AC4494933 /* Pods-MJRefreshHaptica_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJRefreshHaptica_Example-Info.plist"; sourceTree = "<group>"; };
+		79E667A91624297FEB309FD46C84EA6E /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		7B374CB0AEF4CCDCB38A2ABD1BE04BAB /* Pods-MJRefreshHaptica_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJRefreshHaptica_Tests.modulemap"; sourceTree = "<group>"; };
+		7E88E29D7F02C4B43EEE4579281662E9 /* Pods-MJRefreshHaptica_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJRefreshHaptica_Example.modulemap"; sourceTree = "<group>"; };
+		7EA15F218F046FF978B6EFDAAE8999DD /* Pods-MJRefreshHaptica_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefreshHaptica_Example.release.xcconfig"; sourceTree = "<group>"; };
+		83F37A94B162EAF1E8F1316248F48396 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		8F7A63190690E13833EF02EB25A93D2C /* Pods-MJRefreshHaptica_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefreshHaptica_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		92628C4B409F779A24B7C7B17D5169D8 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		932E20E87C8F18B65E806F17037C236D /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
+		934F51BCFE0DCEC328A0AEC90C25AF87 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		937CD964539D60DBA4C75C8DB3C0B752 /* Pods-MJRefreshHaptica_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJRefreshHaptica_Tests-dummy.m"; sourceTree = "<group>"; };
+		943F1BE15B4B04DAD81A5CBB300A047F /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		94D4F75611B5997AC07000517D04D9BE /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
+		96DAA5B92A969DE17EB6040B3A8341B8 /* Haptica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Haptica.modulemap; sourceTree = "<group>"; };
+		9ADF42CA7B82B2705FDB4DD7C5938CE2 /* Pods-MJRefreshHaptica_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MJRefreshHaptica_Example"; path = Pods_MJRefreshHaptica_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C187A31B29AD2ECE0331997FB3678FF /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E335B70B675AC71FDCDF7F35063041D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FCFAA91108FFB194C0E72BBA020A7B5 /* Pods-MJRefreshHaptica_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJRefreshHaptica_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A47C7848F2ABBBCA46A0B76BED9C87A5 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		A4D9D37ECE96C5ED62C4A34CA4184D70 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		AE436BA1DD6E65301547261D3B7DEBC3 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		AF05A589C512B5733F8891C2592C266B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		AF806180F07717DA30F9E0B40186D553 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		B0B519792B78A3ABCC8BC6E9E0F023B3 /* MJRefreshHaptica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefreshHaptica.release.xcconfig; sourceTree = "<group>"; };
+		B1F30E8C9E6ECBB707C87054DA2B41A3 /* Pods-MJRefreshHaptica_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MJRefreshHaptica_Tests"; path = Pods_MJRefreshHaptica_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40CBF34B38329615AFBB33F5D8E42B7 /* Pods-MJRefreshHaptica_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJRefreshHaptica_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B527C18762067B623814499CFDC857B0 /* Hapticable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hapticable.swift; path = Sources/Hapticable.swift; sourceTree = "<group>"; };
+		B79C09F0EF994CFC1D33E1CA57D0D4F3 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		B7BCEB245A4BEE4F9166E1D9A7329BB8 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		B9043A6DD02B544C94B4BD1DB9C5E816 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		B9FE05F604A2D425930796D81FDF6DEF /* Pods-MJRefreshHaptica_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJRefreshHaptica_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB96B6E481F3BDA86C3E33ACFF167391 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		BDDA79A2D20AA644A77AD82CE9708477 /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefreshHaptica_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFC9D58FC9F556B31C0BDEE4DE765D3 /* MJRefreshTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshTrailer.m; path = MJRefresh/Base/MJRefreshTrailer.m; sourceTree = "<group>"; };
+		BF8AF528609A363F6F5E34B63F1680FF /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C226C78BF53511D1AC3FB619D6986611 /* MJRefreshNormalTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.m; sourceTree = "<group>"; };
+		C2745BFDC03A08B9ABE621C1C8A88C54 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		C465F98C7045971D9C4DA6C1673ABFA2 /* Haptica-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptica-prefix.pch"; sourceTree = "<group>"; };
+		C475E963922E96F3A7AFEBA0BB3A3693 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		C5C064A0422A74852D49D4F2ACD341E3 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		C7F3464B8BCFC593705DEE42B46FEED2 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		CD5C7F38CDE9D6C493CA0FCEE5EFC642 /* Haptica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haptica.debug.xcconfig; sourceTree = "<group>"; };
+		CD6866D05399B8F723389DB0F3E7ECCB /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		CDBCF1DEF194109F5E0191FD6CB22007 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		CF662FD128B52E75839191CF6C42E52A /* MJRefreshHaptica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefreshHaptica.modulemap; sourceTree = "<group>"; };
+		D1424E288D44ABBBF1412E5803BA63AE /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		D14C50DDFB049EC93BE2B83BA292CDE6 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		D8BF7EDFDA54F7B12BF49720EDC2161A /* UICollectionViewLayout+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+MJRefresh.h"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.h"; sourceTree = "<group>"; };
+		D90D17DFFFC8E17F6D9C5EFD80657AE8 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefreshHaptica_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC135F78D1CB0060BEC161FD65B32480 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E396B615B15786F49E6E0B57E890EA47 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E725F720C5E660D619DE41C7B188F190 /* MJRefreshHaptica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefreshHaptica.debug.xcconfig; sourceTree = "<group>"; };
+		EA388B0B940271348285929C97D1D6AE /* Pods-MJRefreshHaptica_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJRefreshHaptica_Example-umbrella.h"; sourceTree = "<group>"; };
+		EA3FFBD349CF5E9BD67E12A7EE5409EE /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		EB2A1D09129523D5E4C7C5E218769A48 /* MJRefreshHaptica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefreshHaptica-umbrella.h"; sourceTree = "<group>"; };
+		EB970C854B1C52219DDC74A5E12B8BC1 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		ECFC6056F28DCA1D1F9AB177BF7584E3 /* MJRefreshHaptica.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MJRefreshHaptica.swift; path = MJRefreshHaptica/Classes/MJRefreshHaptica.swift; sourceTree = "<group>"; };
+		ED705E19085CB207723BEFC32A4A8919 /* MJRefreshHaptica */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefreshHaptica; path = MJRefreshHaptica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F063498E0387DBA581FCE6A7CFD801C6 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		F28B7ECFC7AFC950F5E1F6753466FD78 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		F4142C4F6EEEBDE110E92355E2DECED7 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		F6FC7C32F5FBCB291556053B3996B782 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		F98E0D9E15317EEBD082DAE7B00BB762 /* MJRefreshHaptica-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefreshHaptica-Info.plist"; sourceTree = "<group>"; };
+		FE5F2445BF34C338DE660BCE7E8A7739 /* Pods-MJRefreshHaptica_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJRefreshHaptica_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE89B80B314D709AE2DBAB897FA2B577 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FF66048C7DBF1D2AF930ACB7ECE6ABE2 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EAA16936EA86A26110DB450DA88CEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2667A6393A22577C16D8E3A6FA12B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF883E9247C77B2DECBA6BEE89D6274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B27224392E69E1816A7FF3A1C1103C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73910E40EB8B0F6A7306BB605D6B2567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607D8E0A869C605A8D2A6DE38C836641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916C2D910EA03521CCBCE8168FCEC865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E7AEC31AB0BB8F362C01938B1E9444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */,
+				33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */,
+				3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */,
+				0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3223663F3298EE85D8FE142B7B3D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE03DFCF2407056C5FCD3CC4BCC4C3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED406A6CDCA4028DBB8F0A0E0B94C52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968EA8F624858BC9C3CCC258AF016AAA /* MJRefreshHaptica */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		127D13F9248E4E23732BB591920E28EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C475E963922E96F3A7AFEBA0BB3A3693 /* MJRefresh.modulemap */,
+				C7F3464B8BCFC593705DEE42B46FEED2 /* MJRefresh-dummy.m */,
+				52385A471E82B434039CB04E449C13BB /* MJRefresh-Info.plist */,
+				FF66048C7DBF1D2AF930ACB7ECE6ABE2 /* MJRefresh-prefix.pch */,
+				CD6866D05399B8F723389DB0F3E7ECCB /* MJRefresh-umbrella.h */,
+				94D4F75611B5997AC07000517D04D9BE /* MJRefresh.debug.xcconfig */,
+				5E608CAD9952CBAB4AAD673387CDC868 /* MJRefresh.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		3242D64B8AF87B1F54618DFAAC19FCE4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FE89B80B314D709AE2DBAB897FA2B577 /* FBSnapshotTestCase.h */,
+				46EC2B9705E0C9E006F9FFA427B1B05F /* FBSnapshotTestCase.m */,
+				22D3953F1AB3D5C8167EB266A58E797F /* FBSnapshotTestCasePlatform.h */,
+				2FD514E8FC91C40B179A9E8B98AAC0B9 /* FBSnapshotTestCasePlatform.m */,
+				295F3F281EC719D65251D80888F0433B /* FBSnapshotTestController.h */,
+				BF8AF528609A363F6F5E34B63F1680FF /* FBSnapshotTestController.m */,
+				CDBCF1DEF194109F5E0191FD6CB22007 /* UIApplication+StrictKeyWindow.h */,
+				5D45C941DD5A70450B134936B2297DA7 /* UIApplication+StrictKeyWindow.m */,
+				BB96B6E481F3BDA86C3E33ACFF167391 /* UIImage+Compare.h */,
+				0E431C317BAFA5B86A556AFD3A1E0078 /* UIImage+Compare.m */,
+				DC135F78D1CB0060BEC161FD65B32480 /* UIImage+Diff.h */,
+				1ECBC1087A453CD384A2449A0D7D3D9C /* UIImage+Diff.m */,
+				13CDFC7C117AACF517B1C8C990F3C905 /* UIImage+Snapshot.h */,
+				69850C3A070198BC4943CA55EA74FD76 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3C0A7A87A6D395CEA352A6BF8B40632E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47BF498D03C0D27534D0D9F6EB2116CF /* FBSnapshotTestCase */,
+				C01B7C912E38003CEA2995C84912A679 /* Haptica */,
+				5C3E52BC612D660F8E21CD751BD03BBA /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		416D2ECF822BB491A6BE5A8119451B98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BB9328A823662F0EA18E34151C53E7 /* FBSnapshotTestCase.modulemap */,
+				934F51BCFE0DCEC328A0AEC90C25AF87 /* FBSnapshotTestCase-dummy.m */,
+				A47C7848F2ABBBCA46A0B76BED9C87A5 /* FBSnapshotTestCase-Info.plist */,
+				6F28F97DE18C9FFC79D9377FEF379330 /* FBSnapshotTestCase-prefix.pch */,
+				AF05A589C512B5733F8891C2592C266B /* FBSnapshotTestCase-umbrella.h */,
+				18C732E6C952DE8B77A9B183212B2E83 /* FBSnapshotTestCase.debug.xcconfig */,
+				0EFC717F9388A9821D3549CA0107A4F1 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		4541E212C8909685ACF91F10C998D524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				35722857CB203F06A3B640F120B4BF60 /* Haptica */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
+				ED705E19085CB207723BEFC32A4A8919 /* MJRefreshHaptica */,
+				9ADF42CA7B82B2705FDB4DD7C5938CE2 /* Pods-MJRefreshHaptica_Example */,
+				B1F30E8C9E6ECBB707C87054DA2B41A3 /* Pods-MJRefreshHaptica_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47BF498D03C0D27534D0D9F6EB2116CF /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3242D64B8AF87B1F54618DFAAC19FCE4 /* Core */,
+				416D2ECF822BB491A6BE5A8119451B98 /* Support Files */,
+				B1B668640E074B0E06BF08A6E2AB14CD /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		5C3E52BC612D660F8E21CD751BD03BBA /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3F8F29E65494BF8A222CEC4D3150D0BA /* MJRefresh.h */,
+				EB970C854B1C52219DDC74A5E12B8BC1 /* MJRefreshAutoFooter.h */,
+				B79C09F0EF994CFC1D33E1CA57D0D4F3 /* MJRefreshAutoFooter.m */,
+				C5C064A0422A74852D49D4F2ACD341E3 /* MJRefreshAutoGifFooter.h */,
+				9C187A31B29AD2ECE0331997FB3678FF /* MJRefreshAutoGifFooter.m */,
+				F6FC7C32F5FBCB291556053B3996B782 /* MJRefreshAutoNormalFooter.h */,
+				F28B7ECFC7AFC950F5E1F6753466FD78 /* MJRefreshAutoNormalFooter.m */,
+				70148A4B7F3C3D39FF2B9C97D594CA15 /* MJRefreshAutoStateFooter.h */,
+				75B6431386FB46C1AAB0DBF7C2C6C1BC /* MJRefreshAutoStateFooter.m */,
+				3DF5E519896BA64225FD37F3EAC2123A /* MJRefreshBackFooter.h */,
+				1C9CBF59F3E758B465F2C23BDBA721DE /* MJRefreshBackFooter.m */,
+				92628C4B409F779A24B7C7B17D5169D8 /* MJRefreshBackGifFooter.h */,
+				1EA4C6FEE84BB52E3A279259EB9F1DCE /* MJRefreshBackGifFooter.m */,
+				F4142C4F6EEEBDE110E92355E2DECED7 /* MJRefreshBackNormalFooter.h */,
+				15897515CE92D68EFD2614128D2B7092 /* MJRefreshBackNormalFooter.m */,
+				3C2F2FED021C7EE8490BAA67323C08CF /* MJRefreshBackStateFooter.h */,
+				374EDBD936000480C1BDD88C7E3BEA1D /* MJRefreshBackStateFooter.m */,
+				6121E728959AB0D4FADAAC323B5ACEC9 /* MJRefreshComponent.h */,
+				0F95A2F333A2ACA752E33B77D7EFB857 /* MJRefreshComponent.m */,
+				281457F6692E580B5B01D72D3F955839 /* MJRefreshConfig.h */,
+				1CE6384F1C0405D70957C6A43DFAB7BC /* MJRefreshConfig.m */,
+				253D1790127993798DED8719A79D7DC7 /* MJRefreshConst.h */,
+				41F587598813C90984DD234C541F757F /* MJRefreshConst.m */,
+				AE436BA1DD6E65301547261D3B7DEBC3 /* MJRefreshFooter.h */,
+				79E667A91624297FEB309FD46C84EA6E /* MJRefreshFooter.m */,
+				14A242AD17BF0415E99D4CA5E38664AE /* MJRefreshGifHeader.h */,
+				5A8ABF27755574553D5FB15D9676E486 /* MJRefreshGifHeader.m */,
+				D1424E288D44ABBBF1412E5803BA63AE /* MJRefreshHeader.h */,
+				13FE6C8D786AD1EC8BDF9D53D6FE5331 /* MJRefreshHeader.m */,
+				A4D9D37ECE96C5ED62C4A34CA4184D70 /* MJRefreshNormalHeader.h */,
+				B9043A6DD02B544C94B4BD1DB9C5E816 /* MJRefreshNormalHeader.m */,
+				13B867BA1FC2795005E827F2ED7F8C0B /* MJRefreshNormalTrailer.h */,
+				C226C78BF53511D1AC3FB619D6986611 /* MJRefreshNormalTrailer.m */,
+				AF806180F07717DA30F9E0B40186D553 /* MJRefreshStateHeader.h */,
+				EA3FFBD349CF5E9BD67E12A7EE5409EE /* MJRefreshStateHeader.m */,
+				33AA71DCF897C2A36454C5D7FBB5B51A /* MJRefreshStateTrailer.h */,
+				43D9C290FE8D692FFCD7B9F935AB45B4 /* MJRefreshStateTrailer.m */,
+				932E20E87C8F18B65E806F17037C236D /* MJRefreshTrailer.h */,
+				BDFC9D58FC9F556B31C0BDEE4DE765D3 /* MJRefreshTrailer.m */,
+				401A52C89EF13EB63CFFF337498BAD4F /* NSBundle+MJRefresh.h */,
+				943F1BE15B4B04DAD81A5CBB300A047F /* NSBundle+MJRefresh.m */,
+				D8BF7EDFDA54F7B12BF49720EDC2161A /* UICollectionViewLayout+MJRefresh.h */,
+				57850B4F6A575B34F2635E3D8B531C8B /* UICollectionViewLayout+MJRefresh.m */,
+				0BAADF76AA72C270F37AD066554F67EA /* UIScrollView+MJExtension.h */,
+				D14C50DDFB049EC93BE2B83BA292CDE6 /* UIScrollView+MJExtension.m */,
+				E396B615B15786F49E6E0B57E890EA47 /* UIScrollView+MJRefresh.h */,
+				83F37A94B162EAF1E8F1316248F48396 /* UIScrollView+MJRefresh.m */,
+				F063498E0387DBA581FCE6A7CFD801C6 /* UIView+MJExtension.h */,
+				B7BCEB245A4BEE4F9166E1D9A7329BB8 /* UIView+MJExtension.m */,
+				C9CC9FC3A4AC6D6C36384DF95AD2BA0B /* Resources */,
+				127D13F9248E4E23732BB591920E28EF /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		8766E9235FF8493B0AF606C4663CF53D /* Pods-MJRefreshHaptica_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E88E29D7F02C4B43EEE4579281662E9 /* Pods-MJRefreshHaptica_Example.modulemap */,
+				FE5F2445BF34C338DE660BCE7E8A7739 /* Pods-MJRefreshHaptica_Example-acknowledgements.markdown */,
+				B9FE05F604A2D425930796D81FDF6DEF /* Pods-MJRefreshHaptica_Example-acknowledgements.plist */,
+				327ADFB760FB9BDE9AA58AADA9AB025D /* Pods-MJRefreshHaptica_Example-dummy.m */,
+				9FCFAA91108FFB194C0E72BBA020A7B5 /* Pods-MJRefreshHaptica_Example-frameworks.sh */,
+				7834928907F95C7B2F30686AC4494933 /* Pods-MJRefreshHaptica_Example-Info.plist */,
+				EA388B0B940271348285929C97D1D6AE /* Pods-MJRefreshHaptica_Example-umbrella.h */,
+				8F7A63190690E13833EF02EB25A93D2C /* Pods-MJRefreshHaptica_Example.debug.xcconfig */,
+				7EA15F218F046FF978B6EFDAAE8999DD /* Pods-MJRefreshHaptica_Example.release.xcconfig */,
+			);
+			name = "Pods-MJRefreshHaptica_Example";
+			path = "Target Support Files/Pods-MJRefreshHaptica_Example";
+			sourceTree = "<group>";
+		};
+		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */,
+				5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */,
+				4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */,
+				26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		968EA8F624858BC9C3CCC258AF016AAA /* MJRefreshHaptica */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC6056F28DCA1D1F9AB177BF7584E3 /* MJRefreshHaptica.swift */,
+				A68E7AF9CFF6AB6707E92835E81F8F92 /* Pod */,
+				DE7912CB4D72DDFAD6B2905491E74049 /* Support Files */,
+			);
+			name = MJRefreshHaptica;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A66649377FB81AA14BA869840BAB89A5 /* Pods-MJRefreshHaptica_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B374CB0AEF4CCDCB38A2ABD1BE04BAB /* Pods-MJRefreshHaptica_Tests.modulemap */,
+				3F2721655957EFF49EA6B93A3F81377A /* Pods-MJRefreshHaptica_Tests-acknowledgements.markdown */,
+				1A0ECC172318EB48E0ABA4DC01AA1FE9 /* Pods-MJRefreshHaptica_Tests-acknowledgements.plist */,
+				937CD964539D60DBA4C75C8DB3C0B752 /* Pods-MJRefreshHaptica_Tests-dummy.m */,
+				497DE3EB22991FAC6B738983643E1E1B /* Pods-MJRefreshHaptica_Tests-frameworks.sh */,
+				0D871DD8FA33CEDAF1647B0106C80BC2 /* Pods-MJRefreshHaptica_Tests-Info.plist */,
+				B40CBF34B38329615AFBB33F5D8E42B7 /* Pods-MJRefreshHaptica_Tests-umbrella.h */,
+				BDDA79A2D20AA644A77AD82CE9708477 /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */,
+				D90D17DFFFC8E17F6D9C5EFD80657AE8 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */,
+			);
+			name = "Pods-MJRefreshHaptica_Tests";
+			path = "Target Support Files/Pods-MJRefreshHaptica_Tests";
+			sourceTree = "<group>";
+		};
+		A68E7AF9CFF6AB6707E92835E81F8F92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E335B70B675AC71FDCDF7F35063041D /* LICENSE */,
+				2123C5857D1D7D54C4567FB5F957C4BB /* MJRefreshHaptica.podspec */,
+				7054DF870646905EF643BB838524A880 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1B668640E074B0E06BF08A6E2AB14CD /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				172FE08223ED5248CC06AC7D799856EB /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2E00DF1401409A51A3C32E88DB192F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96DAA5B92A969DE17EB6040B3A8341B8 /* Haptica.modulemap */,
+				756404EAC9D5899A25228098F86D468D /* Haptica-dummy.m */,
+				064F17FD263B1AB48ABAEB45574977C3 /* Haptica-Info.plist */,
+				C465F98C7045971D9C4DA6C1673ABFA2 /* Haptica-prefix.pch */,
+				0E7C454651F93E50372A9AB387FB5643 /* Haptica-umbrella.h */,
+				CD5C7F38CDE9D6C493CA0FCEE5EFC642 /* Haptica.debug.xcconfig */,
+				5AF713ACA88F431D4381E4551DD393B2 /* Haptica.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Haptica";
+			sourceTree = "<group>";
+		};
+		C01B7C912E38003CEA2995C84912A679 /* Haptica */ = {
+			isa = PBXGroup;
+			children = (
+				13FF8A015D618EDCE437E6C8F7CE04D0 /* Associated.swift */,
+				C2745BFDC03A08B9ABE621C1C8A88C54 /* Extensions.swift */,
+				747F0FA64F822D8CC2B1CEFDFE10D515 /* Haptic.swift */,
+				B527C18762067B623814499CFDC857B0 /* Hapticable.swift */,
+				1FCF898B1341FD80F614ECB19FB358CD /* Pattern.swift */,
+				BD2E00DF1401409A51A3C32E88DB192F /* Support Files */,
+			);
+			name = Haptica;
+			path = Haptica;
+			sourceTree = "<group>";
+		};
+		C9CC9FC3A4AC6D6C36384DF95AD2BA0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34EF28880C4137D2534EF03F216E33D9 /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0ED406A6CDCA4028DBB8F0A0E0B94C52 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				3C0A7A87A6D395CEA352A6BF8B40632E /* Pods */,
+				4541E212C8909685ACF91F10C998D524 /* Products */,
+				D7F426C52618F417A40D1DD933270331 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F426C52618F417A40D1DD933270331 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8766E9235FF8493B0AF606C4663CF53D /* Pods-MJRefreshHaptica_Example */,
+				A66649377FB81AA14BA869840BAB89A5 /* Pods-MJRefreshHaptica_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE7912CB4D72DDFAD6B2905491E74049 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF662FD128B52E75839191CF6C42E52A /* MJRefreshHaptica.modulemap */,
+				35230AC3748EC23D840BFE5193CB88CE /* MJRefreshHaptica-dummy.m */,
+				F98E0D9E15317EEBD082DAE7B00BB762 /* MJRefreshHaptica-Info.plist */,
+				3BA0A75194921611F245E6D1370A86EB /* MJRefreshHaptica-prefix.pch */,
+				EB2A1D09129523D5E4C7C5E218769A48 /* MJRefreshHaptica-umbrella.h */,
+				E725F720C5E660D619DE41C7B188F190 /* MJRefreshHaptica.debug.xcconfig */,
+				B0B519792B78A3ABCC8BC6E9E0F023B3 /* MJRefreshHaptica.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJRefreshHaptica";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12B2173163C84D3724EE6FF4C8463019 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D036C31811DDAFE9DDD5E095894F368 /* MJRefreshHaptica-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9F1A65ACF4FD69F2609ADE3B36405D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44336F28E926C7A73340E9DA76142801 /* Pods-MJRefreshHaptica_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C671E74EE990CC2845FACBE9BF760DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF1C3AF7672F55437688FC35E2E6A71 /* MJRefresh.h in Headers */,
+				B1307BCEFA623FF242109620B14A08BA /* MJRefresh-umbrella.h in Headers */,
+				1CDB03419D31CB46D2DDA3BDBFE54FA0 /* MJRefreshAutoFooter.h in Headers */,
+				8077A41ACD375F4384A97031D20DA8C2 /* MJRefreshAutoGifFooter.h in Headers */,
+				863265A549BF19D79A4EBB25C183DC7F /* MJRefreshAutoNormalFooter.h in Headers */,
+				181E5F4343C6D3625AE04C1B0D70F0C7 /* MJRefreshAutoStateFooter.h in Headers */,
+				A32C79A703440A6FD893D2EC99C8A50B /* MJRefreshBackFooter.h in Headers */,
+				98F3E3E30CB29B6D33FEC344656DE2B1 /* MJRefreshBackGifFooter.h in Headers */,
+				58B1051758A1FA76C2B9F8C07AC1E55C /* MJRefreshBackNormalFooter.h in Headers */,
+				5C50F36F9CB20A20396364C601DB40B0 /* MJRefreshBackStateFooter.h in Headers */,
+				CC4F11DE003A880456411027726DC0F4 /* MJRefreshComponent.h in Headers */,
+				5901084F0039F17126684A022E5F84B5 /* MJRefreshConfig.h in Headers */,
+				89235D5EC1FA4F0FD6165B17B542D714 /* MJRefreshConst.h in Headers */,
+				ECBC215883D3DF3A4E9971487E4DB260 /* MJRefreshFooter.h in Headers */,
+				3769DDC469C4CECA0F9883481E631CC2 /* MJRefreshGifHeader.h in Headers */,
+				AFAAE42DF4585633FA1A217A0E811856 /* MJRefreshHeader.h in Headers */,
+				F52A27FAA0646504F274F1224366E858 /* MJRefreshNormalHeader.h in Headers */,
+				FF5D09270B5A2A00D0E459592002D1F2 /* MJRefreshNormalTrailer.h in Headers */,
+				CE9BCBAD24F7170954A9C7C0B9CB762F /* MJRefreshStateHeader.h in Headers */,
+				F514EA78D136755D0BC0C5D2778A4B73 /* MJRefreshStateTrailer.h in Headers */,
+				0114B8F5F20574BB892ACFE2B202D95C /* MJRefreshTrailer.h in Headers */,
+				B11D964D81D0EF31D61552C5631E7A3F /* NSBundle+MJRefresh.h in Headers */,
+				ED9C51A66341A9C0224E9E07AB1F38D7 /* UICollectionViewLayout+MJRefresh.h in Headers */,
+				FD7662803D266AB3603053D653FA601D /* UIScrollView+MJExtension.h in Headers */,
+				705227AC0D2868E0C0452B6B2F13E7AA /* UIScrollView+MJRefresh.h in Headers */,
+				E3073CA98E00E91598591BB39A850397 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6418C1CC39521E6B0E63592D31A27378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18FD294916AB7FCBBCD5F539134B3B4 /* Pods-MJRefreshHaptica_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */,
+				3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */,
+				CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */,
+				DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */,
+				E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */,
+				F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */,
+				64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE26B8E351FD8D7A92F60AEB8AE0AC13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755BFE7DC01110A9D219FD90568771D0 /* Haptica-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4748C030FD71ABA67758B020AB68EA0F /* Pods-MJRefreshHaptica_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E6C6842B97E436ED5F51923D20D167 /* Build configuration list for PBXNativeTarget "Pods-MJRefreshHaptica_Tests" */;
+			buildPhases = (
+				2F9F1A65ACF4FD69F2609ADE3B36405D /* Headers */,
+				2663F68A315C2CB723CF8911A6873E01 /* Sources */,
+				EE3223663F3298EE85D8FE142B7B3D4F /* Frameworks */,
+				C830BC003F6055034BCA0062103E745B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9BC7230D07E6FB2496CFD78AC9A8EB7 /* PBXTargetDependency */,
+				B9D0E107654637667AB633C9C1E8FC3E /* PBXTargetDependency */,
+			);
+			name = "Pods-MJRefreshHaptica_Tests";
+			productName = Pods_MJRefreshHaptica_Tests;
+			productReference = B1F30E8C9E6ECBB707C87054DA2B41A3 /* Pods-MJRefreshHaptica_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DB3A3AFE4ABB9CFC3F512497E1D657E /* MJRefreshHaptica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A060588C0886177AAC7B64DECF2C6BE5 /* Build configuration list for PBXNativeTarget "MJRefreshHaptica" */;
+			buildPhases = (
+				12B2173163C84D3724EE6FF4C8463019 /* Headers */,
+				C4D5F0A5A0EB6D1BF224889A55914BD5 /* Sources */,
+				916C2D910EA03521CCBCE8168FCEC865 /* Frameworks */,
+				E59256E3CE3C3431D6CA276A7313F93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12BECBCC887B5B3D3717497122A23B7 /* PBXTargetDependency */,
+				F34EF2D9303DC70913720D3E21475225 /* PBXTargetDependency */,
+			);
+			name = MJRefreshHaptica;
+			productName = MJRefreshHaptica;
+			productReference = ED705E19085CB207723BEFC32A4A8919 /* MJRefreshHaptica */;
+			productType = "com.apple.product-type.framework";
+		};
+		6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E7E0F60830A86D70533E72AE5DA33D1 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				3C671E74EE990CC2845FACBE9BF760DE /* Headers */,
+				E79DCB6C4418DDCD358032DAE520F2F5 /* Sources */,
+				3EAA16936EA86A26110DB450DA88CEC3 /* Frameworks */,
+				4FFE6EAC99DFE8941FFB61B891AB92B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */,
+				7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */,
+				98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */,
+				DF3460C426E5BF623E72782B660ED260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		C182E1AD79A078D0642BA102A20F9B7D /* Pods-MJRefreshHaptica_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C33C218E59D08118143EFF925B2DA35 /* Build configuration list for PBXNativeTarget "Pods-MJRefreshHaptica_Example" */;
+			buildPhases = (
+				6418C1CC39521E6B0E63592D31A27378 /* Headers */,
+				77245E2E88C00EF60E1890DBE4CBE0F4 /* Sources */,
+				4EF883E9247C77B2DECBA6BEE89D6274 /* Frameworks */,
+				12DB1DA5308714ADDA2DE9C47F9EA4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA135F6D373C3AE4D5CDB95FFFE2296E /* PBXTargetDependency */,
+				768EDF4B817CFBFCF0DBE8BFF174AA39 /* PBXTargetDependency */,
+				CDC430E388BA8AF02DA83BC5C4CFED38 /* PBXTargetDependency */,
+			);
+			name = "Pods-MJRefreshHaptica_Example";
+			productName = Pods_MJRefreshHaptica_Example;
+			productReference = 9ADF42CA7B82B2705FDB4DD7C5938CE2 /* Pods-MJRefreshHaptica_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D42DC7F21005DF10871F318716326E5E /* Haptica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F64B15B6AC92045F16ECF214F5823 /* Build configuration list for PBXNativeTarget "Haptica" */;
+			buildPhases = (
+				DE26B8E351FD8D7A92F60AEB8AE0AC13 /* Headers */,
+				5295CC1B075AF53D1533BCBFE5FBAFF4 /* Sources */,
+				73910E40EB8B0F6A7306BB605D6B2567 /* Frameworks */,
+				C9E04B54C60A0B714FC792D84C119D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haptica;
+			productName = Haptica;
+			productReference = 35722857CB203F06A3B640F120B4BF60 /* Haptica */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4541E212C8909685ACF91F10C998D524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				D42DC7F21005DF10871F318716326E5E /* Haptica */,
+				6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */,
+				4DB3A3AFE4ABB9CFC3F512497E1D657E /* MJRefreshHaptica */,
+				C182E1AD79A078D0642BA102A20F9B7D /* Pods-MJRefreshHaptica_Example */,
+				4748C030FD71ABA67758B020AB68EA0F /* Pods-MJRefreshHaptica_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12DB1DA5308714ADDA2DE9C47F9EA4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFE6EAC99DFE8941FFB61B891AB92B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2622E174BFC945E9C40B8BFFC9BC82 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C830BC003F6055034BCA0062103E745B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E04B54C60A0B714FC792D84C119D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3460C426E5BF623E72782B660ED260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59256E3CE3C3431D6CA276A7313F93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2663F68A315C2CB723CF8911A6873E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC8361E2EEB708B5544E60DCB0A2939 /* Pods-MJRefreshHaptica_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5295CC1B075AF53D1533BCBFE5FBAFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD9E1709AB1FAAA11027E9517DD2CF /* Associated.swift in Sources */,
+				028436A7CF8242E973EDF9B6F794AD52 /* Extensions.swift in Sources */,
+				DA8E984C1424B98CEF0C26D0986B0695 /* Haptic.swift in Sources */,
+				420062A06901010A1EA585481E3747FF /* Haptica-dummy.m in Sources */,
+				D16DC5108E5030FB976667035824FAF3 /* Hapticable.swift in Sources */,
+				35F80F25F553648A4833A9B2A96F281D /* Pattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77245E2E88C00EF60E1890DBE4CBE0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FD6A9B97CB0C14864751C243A612E2 /* Pods-MJRefreshHaptica_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */,
+				E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */,
+				AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */,
+				267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */,
+				8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */,
+				CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */,
+				593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */,
+				766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */,
+				EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D5F0A5A0EB6D1BF224889A55914BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFF007F556C304B17BB818399E05A9 /* MJRefreshHaptica.swift in Sources */,
+				8A3EC021D41CD1E8581526B472974CD2 /* MJRefreshHaptica-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79DCB6C4418DDCD358032DAE520F2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837AA8FACF31CBD17473CF3A52B5802E /* MJRefresh-dummy.m in Sources */,
+				1CA7ADC37A1FB17AA6DDF31CFABF90B2 /* MJRefreshAutoFooter.m in Sources */,
+				FE6264E3C4D12DBEE389996AFF918054 /* MJRefreshAutoGifFooter.m in Sources */,
+				9E2E34918A66B77BF8E6BFDE8FBCA2A0 /* MJRefreshAutoNormalFooter.m in Sources */,
+				1763BF1A73363FCCDD9C9BE2F3C9ECC5 /* MJRefreshAutoStateFooter.m in Sources */,
+				38B3358330769E0529CEFD1D3BFB1E48 /* MJRefreshBackFooter.m in Sources */,
+				4467676F0FE19FAC276C293C627F7BB0 /* MJRefreshBackGifFooter.m in Sources */,
+				2A9D5705BAF7401932B6DF298D2B00FE /* MJRefreshBackNormalFooter.m in Sources */,
+				F5499380D2AFD9E13B8264CCD3AB3C9A /* MJRefreshBackStateFooter.m in Sources */,
+				6F5475F142A1E83603DB1B357605096D /* MJRefreshComponent.m in Sources */,
+				3EEBA74A9D3A19D1182B1EA522DA9362 /* MJRefreshConfig.m in Sources */,
+				0FB199C06866EC3D430A3E21C4850C87 /* MJRefreshConst.m in Sources */,
+				673F3289BD02C39B6886B916436FDB06 /* MJRefreshFooter.m in Sources */,
+				0104977F50A324681C504F3CA7B2BE17 /* MJRefreshGifHeader.m in Sources */,
+				7979AA0F93C47F3FB78AA5785CDCEA64 /* MJRefreshHeader.m in Sources */,
+				4B611DDF30DBEAF7EF202508B70C40C1 /* MJRefreshNormalHeader.m in Sources */,
+				61F706F2C53FEB0851B318203876B9CE /* MJRefreshNormalTrailer.m in Sources */,
+				3E4A12CB055C805955E4FF61F90E2868 /* MJRefreshStateHeader.m in Sources */,
+				6E2F3922AEF4EFA5B8013B25ED7F6F19 /* MJRefreshStateTrailer.m in Sources */,
+				81B1B8D29C0AF033C9F296B242331D94 /* MJRefreshTrailer.m in Sources */,
+				58468E17F31D90388F73D03FA03D9896 /* NSBundle+MJRefresh.m in Sources */,
+				ED827C9A4615ECBD8EFFA1E2C2E59B92 /* UICollectionViewLayout+MJRefresh.m in Sources */,
+				FD9E6A83907C18D2D5F5DD9E8E4FAA9D /* UIScrollView+MJExtension.m in Sources */,
+				26A3DE3437CC7F7DD97F8225B1609A3E /* UIScrollView+MJRefresh.m in Sources */,
+				0C91F1C99A35729020707737A2FEDD00 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768EDF4B817CFBFCF0DBE8BFF174AA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = 079E55F21F30F246318EF1E75CEED405 /* PBXContainerItemProxy */;
+		};
+		B9D0E107654637667AB633C9C1E8FC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MJRefreshHaptica_Example";
+			target = C182E1AD79A078D0642BA102A20F9B7D /* Pods-MJRefreshHaptica_Example */;
+			targetProxy = B4D41F3E350CA7D524D8340219BF10C3 /* PBXContainerItemProxy */;
+		};
+		C12BECBCC887B5B3D3717497122A23B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haptica;
+			target = D42DC7F21005DF10871F318716326E5E /* Haptica */;
+			targetProxy = 1E7BBBB46013848B682A129A00AB7A34 /* PBXContainerItemProxy */;
+		};
+		CDC430E388BA8AF02DA83BC5C4CFED38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefreshHaptica;
+			target = 4DB3A3AFE4ABB9CFC3F512497E1D657E /* MJRefreshHaptica */;
+			targetProxy = 0CC8C981A795A429E77FAD96B608A019 /* PBXContainerItemProxy */;
+		};
+		E9BC7230D07E6FB2496CFD78AC9A8EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 303FBDFB0D7AFAC15FDAA576091ACB37 /* PBXContainerItemProxy */;
+		};
+		F34EF2D9303DC70913720D3E21475225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = B7223678DD3C13099CF71C52020B10AA /* PBXContainerItemProxy */;
+		};
+		FA135F6D373C3AE4D5CDB95FFFE2296E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haptica;
+			target = D42DC7F21005DF10871F318716326E5E /* Haptica */;
+			targetProxy = 1E4AEFC3F2B709A41F4834EC966696A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D4F6F8C73AF95CDCEB145897C72AE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7A63190690E13833EF02EB25A93D2C /* Pods-MJRefreshHaptica_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		189B160941C76FA2A15D741807CCB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFC717F9388A9821D3549CA0107A4F1 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2418242654E62540D0496D4B0F4C1BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D4F75611B5997AC07000517D04D9BE /* MJRefresh.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26C7DB6A5C74D3508F48904A9F93A645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B519792B78A3ABCC8BC6E9E0F023B3 /* MJRefreshHaptica.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica.modulemap";
+				PRODUCT_MODULE_NAME = MJRefreshHaptica;
+				PRODUCT_NAME = MJRefreshHaptica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48DE2ADA198DD6344F2EFF0C143E959B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C732E6C952DE8B77A9B183212B2E83 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AA6AFF5FCBEAC618E44EE6F0629FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E725F720C5E660D619DE41C7B188F190 /* MJRefreshHaptica.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefreshHaptica/MJRefreshHaptica.modulemap";
+				PRODUCT_MODULE_NAME = MJRefreshHaptica;
+				PRODUCT_NAME = MJRefreshHaptica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81DB21506B75090F152DC91D96A3AF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF713ACA88F431D4381E4551DD393B2 /* Haptica.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Haptica/Haptica-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Haptica/Haptica-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haptica/Haptica.modulemap";
+				PRODUCT_MODULE_NAME = Haptica;
+				PRODUCT_NAME = Haptica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D65BB1E97A036D129480615D5E8EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E608CAD9952CBAB4AAD673387CDC868 /* MJRefresh.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7FD313A7B5B268ADB91DB25946B0D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5C7F38CDE9D6C493CA0FCEE5EFC642 /* Haptica.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Haptica/Haptica-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Haptica/Haptica-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haptica/Haptica.modulemap";
+				PRODUCT_MODULE_NAME = Haptica;
+				PRODUCT_NAME = Haptica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9552122FD30AA3A2524994BF8AA283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA15F218F046FF978B6EFDAAE8999DD /* Pods-MJRefreshHaptica_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC58BFBB77C9BE1E46ED93B9660E0FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDA79A2D20AA644A77AD82CE9708477 /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5A91AB1C3D6353FCDE19795EF3B377B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90D17DFFFC8E17F6D9C5EFD80657AE8 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E7E0F60830A86D70533E72AE5DA33D1 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2418242654E62540D0496D4B0F4C1BAB /* Debug */,
+				8D65BB1E97A036D129480615D5E8EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DE2ADA198DD6344F2EFF0C143E959B /* Debug */,
+				189B160941C76FA2A15D741807CCB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C33C218E59D08118143EFF925B2DA35 /* Build configuration list for PBXNativeTarget "Pods-MJRefreshHaptica_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4F6F8C73AF95CDCEB145897C72AE64 /* Debug */,
+				C9552122FD30AA3A2524994BF8AA283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E6C6842B97E436ED5F51923D20D167 /* Build configuration list for PBXNativeTarget "Pods-MJRefreshHaptica_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC58BFBB77C9BE1E46ED93B9660E0FF0 /* Debug */,
+				F5A91AB1C3D6353FCDE19795EF3B377B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A060588C0886177AAC7B64DECF2C6BE5 /* Build configuration list for PBXNativeTarget "MJRefreshHaptica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA6AFF5FCBEAC618E44EE6F0629FCBD /* Debug */,
+				26C7DB6A5C74D3508F48904A9F93A645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F64B15B6AC92045F16ECF214F5823 /* Build configuration list for PBXNativeTarget "Haptica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FD313A7B5B268ADB91DB25946B0D4A /* Debug */,
+				81DB21506B75090F152DC91D96A3AF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

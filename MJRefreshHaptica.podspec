@@ -27,8 +27,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'Sfh03031' => 'sfhery@foxmail.com' }
   s.source           = { :git => 'https://github.com/Sfh03031/MJRefreshHaptica.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.swift_versions   = '5.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'MJRefreshHaptica/Classes/**/*'
   
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh'
+  s.dependency 'Haptica'
+  
 end

@@ -1,0 +1,6 @@
+framework module Pods_MJRefreshHaptica_Example {
+  umbrella header "Pods-MJRefreshHaptica_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

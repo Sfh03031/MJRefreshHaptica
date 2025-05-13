@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		07836BC35499BC7BCC96DAAD /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshHaptica_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B8831BEE7EB903188D1718 /* Pods_MJRefreshHaptica_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJRefreshHaptica_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		352EB58FD45D3442379B51DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		352EB58FD45D3442379B51DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4956F1DE406006570055DCD1 /* Pods_MJRefreshHaptica_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJRefreshHaptica_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MJRefreshHaptica_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJRefreshHaptica_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6518AEAD7189AC9B2F8CEEC1 /* Pods-MJRefreshHaptica_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshHaptica_Example.release.xcconfig"; path = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C7DA0F57143C6667718A4F7A /* MJRefreshHaptica.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MJRefreshHaptica.podspec; path = ../MJRefreshHaptica.podspec; sourceTree = "<group>"; };
+		C7DA0F57143C6667718A4F7A /* MJRefreshHaptica.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJRefreshHaptica.podspec; path = ../MJRefreshHaptica.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D52166E0859D2478320BEE1F /* Pods-MJRefreshHaptica_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshHaptica_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD3CC424E905A2F61AAC9C2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD3CC424E905A2F61AAC9C2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EA890DF9812050B3B3B5DCA6 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshHaptica_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJRefreshHaptica_Tests/Pods-MJRefreshHaptica_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				07836BC35499BC7BCC96DAAD /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */,
 				EA890DF9812050B3B3B5DCA6 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +316,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MJRefreshHaptica_Example/Pods-MJRefreshHaptica_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Haptica/Haptica.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefreshHaptica/MJRefreshHaptica.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Haptica.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefreshHaptica.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +503,9 @@
 			baseConfigurationReference = D52166E0859D2478320BEE1F /* Pods-MJRefreshHaptica_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = MJRefreshHaptica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +520,9 @@
 			baseConfigurationReference = 6518AEAD7189AC9B2F8CEEC1 /* Pods-MJRefreshHaptica_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = MJRefreshHaptica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07836BC35499BC7BCC96DAAD /* Pods-MJRefreshHaptica_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +546,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +560,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA890DF9812050B3B3B5DCA6 /* Pods-MJRefreshHaptica_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

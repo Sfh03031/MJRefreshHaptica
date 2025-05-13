@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Haptica (3.0.3)
+  - MJRefresh (3.7.6)
+  - MJRefreshHaptica (0.1.0):
+    - Haptica
+    - MJRefresh
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - MJRefreshHaptica (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Haptica
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  MJRefreshHaptica:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Haptica: 23497230b2d7476621f7860263ae0667279a0a89
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  MJRefreshHaptica: 97841cf900c0fa07ef2a8b606b225b022e61893f
+
+PODFILE CHECKSUM: 1af9d3920d63a14cea809d93ec4dde220c7cbec8
+
+COCOAPODS: 1.16.2
