@@ -50,7 +50,7 @@ find `didFinishLaunchingWithOptions` method in `AppDelegate.swift` file, add the
 
 ```swift
 
-MJRefreshHaptica.default.open(true, style: .medium)
+MJRefreshHaptica.default.open(true, style: .light)
 
 ```
 the `style` property is a case of `HapticFeedbackStyle`:
@@ -65,6 +65,8 @@ public enum HapticFeedbackStyle: Int {
 }
 
 ```
+
+It's that simple, enjoy it.
 
 ## Contributing
 
