@@ -13,6 +13,8 @@ Add haptica feed back during pulling to refresh for MJRefresh by runtime.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+[DeepWiki](https://deepwiki.com/Sfh03031/MJRefreshHaptica)
+
 ## Requirements
 
 * iOS 12.0 or later
